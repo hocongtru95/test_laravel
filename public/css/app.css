@@ -1,3 +1,10 @@
+.nativead-frm,
+.tracking-3nd {
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
 .nativead-frm fieldset {
   display: none;
 }
@@ -11,6 +18,10 @@
   justify-content: space-between;
 }
 
+.btn-generate {
+  display: none;
+}
+
 #trackingModal .modal-footer {
   text-align: center !important;
 }
@@ -22,10 +33,5 @@
 .tracking-group label {
   width: 25%;
   align-self: center;
-}
-
-.tracking-3nd {
-  max-height: 500px;
-  overflow-y: scroll;
 }
 

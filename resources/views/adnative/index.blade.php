@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adnative</title>
-    <link rel="stylesheet" href="{{ url('css/app.css') }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url('css/app.css') }}">
 </head>
 <body>
 
@@ -251,7 +251,7 @@
             <div class="modal-footer">
                 <div class="nativead-btn-group">
                     <a href="#" class="btn btn-default btn-prev">Prev</a>
-                    <a href="#" class="btn btn-success btn-generate hidden">Generate</a>
+                    <a href="#" class="btn btn-success btn-generate">Generate</a>
                     <a href="#" class="btn btn-info btn-next">Next</a>
                 </div>
             </div>
