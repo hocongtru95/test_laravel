@@ -8,27 +8,45 @@
     <title>Document</title>
 </head>
 <body>
+
+<a href="hocongtru.site">This link to test </a>
+<a href="nguyenthixuyen.site">This link to test 3</a>
+<a href="hocongtru.site">This link to test 2</a>
+
+
+<script src="{{ url('js/app.js') }}"></script>
 <script>
-    var img = new Image();
-    // img.onload = function () {
-    //     if (this.width < this.height) {
-    //         alert('Anh doc');
-    //     }
-    //     else {
-    //         alert('Anh ngang');
-    //     }
-    // }
-    img.src = '{{ url('image/hinh_anh_2.jpg') }}';
+    function sortSelect(arr) {
+        for (let i = 0; i < arr.length - 1; i++) {
+            let min = i;
+            for (let j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[min]) min = j;
+            }
+            let t = arr[i];
+            arr[i] = arr[min];
+            arr[min] = t;
+        }
+        return arr;
+    }
+    //console.log(sortSelect([4, 6, 12, 18, 2, 25, 11, 5]));
+
+    function insertionSort(array){
+        let pos, x;
+        for(let i = 1; i < array.length; i++){
+            pos = i - 1;
+            x = array[i];
+            while(pos >= 0 && array[pos] > x){
+                array[pos + 1] = array[pos];
+                pos--;
+            }
+            array[pos + 1] = x;
+        }
+        return array;
+    }
+
+    console.log(insertionSort([4, 6, 12, 18, 2, 25, 11, 5]));
 
 </script>
-
-@php
-    $data = list($width, $height) = getimagesize(url('image/hinh_anh_2.jpg'));
-    dd($data);
-@endphp
-
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="dist/jquery.watermark.min.js"></script>
 
 </body>
 </html>

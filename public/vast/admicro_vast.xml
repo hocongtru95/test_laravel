@@ -1,0 +1,80 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="123456">
+        <InLine>
+            <AdSystem version="2.0">AdMicro</AdSystem>
+            <AdTitle>In-Stream Video</AdTitle>
+            <Impression id="AdMicro">
+                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B0%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Impression>
+            <Error>
+                <![CDATA[https://lg1.logging.admicro.vn/ve?path={urlpath}&dmn={hostname}&bid=123456&zid={zoneid}&cmp=1234567&e=[ERRORCODE]&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Error>
+            <Creatives>
+                <Creative sequence="1" AdID="">
+                    <Linear>
+                        <Duration>00:00:16</Duration>
+                        <AdParameters/>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B1%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="start">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B2%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B3%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B4%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B5%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B6%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B7%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B8%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B9%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="rewind">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B10%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B11%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="fullscreen">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B12%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="expand">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B13%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="collapse">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B14%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="close">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B16%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="progress" offset="00:00:15">
+                                <![CDATA[https://lg1.logging.admicro.vn/act?p=1234567%3B123456%3B{zoneid}%3B15%3B{hostname}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://benhvienthucuc.com/thu-cuc-dia-chi-kham-suc-khoe-va-tam-soat-ung-thu-tin-cay-cua-nhieu-nghe-si-viet/?utm_source=Admicro&utm_medium=TVC&utm_campaign=BV_ThuCuc_Instream_trueview_15s_QC4281119_1511]]></ClickThrough>
+                            <ClickTracking id="AdMicro">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B15%3B{tagid}%3B{hostname}&re=&cov=1&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="1" delivery="progressive" type="video/mp4" bitrate="800" width="640"
+                                       height="360" maintainAspectRatio="true" scalable="true">
+                                <![CDATA[https://adv.admicro.vn/adt/cpc/tvcads/2019/11/bvthucuc_tvc15s-640x360-final_1573794606953.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="AdMicro">
+                    <AdServingData>
+                        <DeliveryData>
+                            <Thumbnail></Thumbnail>
+                            <TitleBar><![CDATA[]]></TitleBar>
+                            <CustomClickThrough>
+                                <![CDATA[https://benhvienthucuc.com/thu-cuc-dia-chi-kham-suc-khoe-va-tam-soat-ung-thu-tin-cay-cua-nhieu-nghe-si-viet/?utm_source=Admicro&utm_medium=TVC&utm_campaign=BV_ThuCuc_Instream_trueview_15s_QC4281119_1511]]></CustomClickThrough>
+                            <CustomTracking>
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1234567%3B123456%3B{zoneid}%3B0%3B-1%3B9%3B15%3B{tagid}%3B{hostname}&re=&cov=1&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></CustomTracking>
+                            <Frequency></Frequency>
+                        </DeliveryData>
+                    </AdServingData>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>

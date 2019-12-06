@@ -34,3 +34,23 @@ Route::get('delete', function () {
 Route::get('home', 'HomeController@index');
 Route::get('home/heart', 'HomeController@heart');
 Route::get('pdf', 'HomeController@pdfJs');
+
+Route::get('lazy-load', function () {
+    return view('lazyload_jquery');
+});
+
+Route::get('banner', function () {
+    return view('banner.index');
+});
+
+Route::get('banner-data', function () {
+    return view('banner.banner-data');
+});
+
+Route::get('jwplayer', function () {
+    return view('jwplayer');
+});
+
+Route::get('adnative', function () {
+    return view('adnative.index');
+});

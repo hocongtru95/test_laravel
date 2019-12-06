@@ -1,0 +1,109 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="546036">
+        <InLine>
+            <AdSystem version="2.0">AdMicro</AdSystem>
+            <AdTitle>In-Stream Video</AdTitle>
+            <Impression id="AdMicro">
+                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B0%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Impression>
+            <Impression id="ThirdParty">
+                <![CDATA[https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=26075699&PluID=0&ord={timestamp}&rtu=-1]]></Impression>
+            <Error>
+                <![CDATA[https://lg1.logging.admicro.vn/ve?path={urlpath}&dmn={hostname}&bid=546036&zid={zoneid}&cmp=1295866&e=[ERRORCODE]&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Error>
+            <Creatives>
+                <Creative sequence="1" AdID="">
+                    <Linear>
+                        <Duration>00:00:06</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B1%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="start">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B2%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B3%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B4%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B5%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B6%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B7%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B8%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B9%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="rewind">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B10%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B11%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="fullscreen">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B12%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="collapse">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B14%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="close">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B16%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="load article">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B17%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="play article">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B18%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Hover">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B50%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Click to banner expand">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B51%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video1 25%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B52%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video1 50%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B53%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video1 75%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B54%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video1 100%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B55%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video2 Click">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B56%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video2 25%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B57%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video2 50%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B58%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video2 75%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B59%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="Video2 100%">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B60%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="true_view">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B61%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B255%3B{tagid}%3B{hostname}&cov=0&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=26075699&PluID=0&ord={timestamp}]]></ClickThrough>
+                            <ClickTracking id="AdMicro">
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B15%3B{tagid}%3B{hostname}&re=&cov=1&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile type="application/javascript" apiFramework="VPAID">
+                                <![CDATA[//adi.admicro.vn/adt/cpc/tvcads/files/others/admVpaidCore/admVpaidHtmlCore.js]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <AdParameters>
+                            <![CDATA[<WrapperCanvas><LinkCanvas>https://adi.admicro.vn/adt/cpc/tvcads/2018/09/samsung_v2_1537945813754.html</LinkCanvas><LinkCanvasExpand>https://adi.admicro.vn/adt/cpc/tvcads/2018/09/metre-1600x1200_v1_15379348001161.html</LinkCanvasExpand></WrapperCanvas>]]>
+                        </AdParameters>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="AdMicro">
+                    <AdServingData>
+                        <DeliveryData>
+                            <Thumbnail><![CDATA[https://adi.admicro.vn/adt/cpc/tvcads/2018/09/]]></Thumbnail>
+                            <TitleBar></TitleBar>
+                            <CustomClickThrough>
+                                <![CDATA[https://bs.serving-sys.com/serving/adServer.bs?cn=trd&mc=click&pli=26075699&PluID=0&ord={timestamp}]]></CustomClickThrough>
+                            <CustomTracking>
+                                <![CDATA[https://lg1.logging.admicro.vn/atvc?p=1295866%3B546036%3B{zoneid}%3B0%3B-1%3B9%3B15%3B{tagid}%3B{hostname}&re=&cov=1&path={urlpath}&lsn={lsn}&pid={pid}&dgid={dgid}&ui={ui}]]></CustomTracking>
+                        </DeliveryData>
+                    </AdServingData>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>

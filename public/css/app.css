@@ -1,0 +1,31 @@
+.nativead-frm fieldset {
+  display: none;
+}
+
+.nativead-frm fieldset.active {
+  display: block;
+}
+
+.nativead-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+#trackingModal .modal-footer {
+  text-align: center !important;
+}
+
+.tracking-group {
+  display: flex;
+}
+
+.tracking-group label {
+  width: 25%;
+  align-self: center;
+}
+
+.tracking-3nd {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
