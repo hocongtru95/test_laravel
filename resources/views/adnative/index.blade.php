@@ -25,228 +25,269 @@
                 <h4 class="modal-title">Adnative</h4>
             </div>
             <div class="modal-body">
-                <div class="row nativead-frm">
-                    <fieldset class="active">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Image 16:9</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Image 16:10</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Image 15:7</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label>Title</label>
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Black
-                                        <span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <div class="pre-color"></div>
-                                            <a href="#">Black</a>
-                                        </li>
-                                        <li>
-                                            <div class="pre-color"></div>
-                                            <a href="#">Maroon</a>
-                                        </li>
-                                        <li>
-                                            <div class="pre-color"></div>
-                                            <a href="#">Maroon</a>
-                                        </li>
-                                    </ul>
+                <ul id="progressbar">
+                    <li class="active"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+                <form action="" id="nativead-frm">
+                    <div class="row nativead-wrap">
+                        <fieldset class="active">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Image 16:9</label>
+                                    <input type="text" class="form-control" name="image169">
+                                    <small>Bạn được upload banner với kích thước: <span>640x360</span> pixel, lỗi file: <span>.jpg,.png</span>, và dung lượng tối đa <span>250 KB</span></small>
                                 </div>
-                                <textarea name="" id="" class="form-control" cols="30" rows="10" maxlength="300" style="width: 100%; height: 69px;"></textarea>
-                                <small>300 ký tự</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Sapo</label>
-                                <textarea name="" id="" class="form-control" cols="30" rows="10" maxlength="300" style="width: 100%; height: 69px;"></textarea>
-                                <small>300 ký tự</small>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Logo</label>
-                                <input type="text" class="form-control">
-                                <small>Bạn được upload banner với kích thước: 140x36 pixel, và dung lượng tối đa 100KB</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Logo transparent</label>
-                                <input type="text" class="form-control">
-                                <small>Bạn được upload banner với kích thước: 140x36 pixel, và dung lượng tối đa 100KB</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Logo mobile</label>
-                                <input type="text" class="form-control">
-                                <small>Bạn được upload banner với kích thước: 900x100 pixel, và dung lượng tối đa 100KB</small>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Avatar</label>
-                                <input type="text" class="form-control">
-                                <small>Bạn được upload banner với kích thước: 200x200 pixel, lỗi file: .jpg,.png, và dung lượng tối đa 100 KB</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Tên nhãn hàng</label>
-                                <input type="text" class="form-control">
-                                <small>300 ký tự</small>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <label for="">Video & Vast</label>
-                            <div class="form-group">
-                                <label for="">File video</label>
-                                <input type="text" class="form-control">
-                                <small>Bạn được upload banner với kích thước: 640x360 pixel, lỗi file: .mp4,.flv,.html, và dung lượng tối đa 10240 KB</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Link VAST adserving</label>
-                                <input type="text" class="form-control">
-                                <small>350 ký tự</small>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Duration</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <p>
-                                <strong>Video tracking 3rd (VAST)</strong> <a href="#" data-toggle="modal" data-target="#trackingModal" data-dismiss="modal">[Xem]</a>
-                            </p>
-                            <div class="form-group">
-                                <label for="">True view</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Platform</label>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">PC</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Mobile</label>
-                                </p>
-                            </div>
-                            <hr>
-                            <div class="form-group">
-                                <label for="">Vị trí PC</label>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Giữa bài</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Chân bài</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Tin liên quan</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Tin stream</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Cột phải vị trí 1</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Cột phải vị trí 2</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Chân bài trái</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Chân bài phải</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Box300x600</label>
-                                </p>
-                            </div>
-                            <hr>
-                            <div class="form-group">
-                                <label for="">Vị trí Mobile</label>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Giữa bài</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Chân bài</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Tin liên quan</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Tin stream</label>
-                                </p>
-                                <p>
-                                    <input type="checkbox">
-                                    <label for="">Chân trang</label>
-                                </p>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Background Color</label>
-                                <div class="minicolors minicolors-theme-default minicolors-position-bottom minicolors-focus">
-                                    <input type="text" name="nativeads_color" id="nativeads_color" class="form-control minicolors-input" size="7">
+                                <div class="form-group">
+                                    <label for="">Image 16:10</label>
+                                    <input type="text" class="form-control" name="image1610">
+                                    <small>Bạn được upload banner với kích thước: <span>640x400</span> pixel, lỗi file: <span>.jpg,.png</span>, và dung lượng tối đa <span>250 KB</span></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Image 15:7</label>
+                                    <input type="text" class="form-control" name="image157">
+                                    <small>Bạn được upload banner với kích thước: <span>640x280</span> pixel, lỗi file: <span>.jpg,.png</span>, và dung lượng tối đa <span>250 KB</span></small>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <label for="">Font Color</label>
-                                <div class="minicolors minicolors-theme-default minicolors-position-bottom minicolors-focus">
-                                    <input type="text" name="nativeads_color" id="nativeads_color" class="form-control minicolors-input" size="7">
+                        </fieldset>
+                        <fieldset>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <div class="dropdown select-color">
+                                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Black
+                                            <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: black;"></span> Black</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: silver;"></span> Silver</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: gray;"></span> Grey</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: maroon;"></span> Maroon</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: red;"></span> Red</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: purple;"></span> Purple</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: green;"></span> Green</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: olive;"></span> Olive</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: navy;"></span> Navy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: blue;"></span> Blue</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="pre-color" style="background: orange;"></span> Orange</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <textarea name="title" id="" class="form-control" cols="30" rows="10" maxlength="300" style="width: 100%; height: 69px;"></textarea>
+                                    <small>300 ký tự</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Sapo</label>
+                                    <textarea name="sapo" id="" class="form-control" cols="30" rows="10" maxlength="300" style="width: 100%; height: 69px;"></textarea>
+                                    <small>300 ký tự</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Reach</label>
+                                    <input type="text" class="form-control" name="reach">
                                 </div>
                             </div>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="">Config</label>
-                                <input type="text" class="form-control">
-                                <small>10000 ký tự</small>
+                        </fieldset>
+                        <fieldset>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Logo</label>
+                                    <input type="text" class="form-control" name="logo">
+                                    <small>Bạn được upload banner với kích thước: <span>140x36</span> pixel, và dung lượng tối đa <span>100KB</span></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Logo transparent</label>
+                                    <input type="text" class="form-control" name="logo_transparent">
+                                    <small>Bạn được upload banner với kích thước: <span>140x36</span> pixel, và dung lượng tối đa <span>100KB</span></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Logo mobile</label>
+                                    <input type="text" class="form-control" name="logo_mobile">
+                                    <small>Bạn được upload banner với kích thước: <span>900x100</span> pixel, và dung lượng tối đa <span>100KB</span></small>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="">Script tracking</label>
-                                <input type="text" class="form-control">
-                                <small>10000 ký tự</small>
+                        </fieldset>
+                        <fieldset>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Avatar</label>
+                                    <input type="text" class="form-control" name="avatar">
+                                    <small>Bạn được upload banner với kích thước: <span>200x200</span> pixel, lỗi file: .jpg,.png, và dung lượng tối đa <span>100KB</span></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Tên nhãn hàng</label>
+                                    <input type="text" class="form-control" name="brand_name">
+                                    <small>300 ký tự</small>
+                                </div>
                             </div>
-                        </div>
-                    </fieldset>
-                </div>
+                        </fieldset>
+                        <fieldset class="video">
+                            <div class="col-md-12">
+                                <label for="" class="field-title">Video & Vast</label>
+                                <div class="form-group">
+                                    <label for="">File video</label>
+                                    <input type="text" class="form-control" name="video">
+                                    <small>Bạn được upload banner với kích thước: <span>640x360</span> pixel, lỗi file: .mp4,.flv,.html, và dung lượng tối đa <span>10240 KB</span></small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Link VAST adserving</label>
+                                    <input type="text" class="form-control" name="vast_link">
+                                    <small>350 ký tự</small>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="video">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Duration</label>
+                                    <input type="text" class="form-control" name="duration">
+                                </div>
+                                <p>
+                                    <strong>Video tracking 3rd (VAST)</strong> <a href="#" data-toggle="modal" data-target="#trackingModal" data-dismiss="modal">[Xem]</a>
+                                </p>
+                                <div class="form-group">
+                                    <label for="">True view</label>
+                                    <input type="text" class="form-control" name="true_view">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="flatform">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Platform</label>
+                                    <p>
+                                        <input type="checkbox" name="platform[]">
+                                        <label for="">PC</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="platform[]">
+                                        <label for="">Mobile</label>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <label for="">Vị trí PC</label>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Giữa bài</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Chân bài</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Tin liên quan</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Tin stream</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Cột phải vị trí 1</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Cột phải vị trí 2</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Chân bài trái</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Chân bài phải</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_pc[]">
+                                        <label for="">Box300x600</label>
+                                    </p>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                    <label for="">Vị trí Mobile</label>
+                                    <p>
+                                        <input type="checkbox" name="position_mobile[]">
+                                        <label for="">Giữa bài</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_mobile[]">
+                                        <label for="">Chân bài</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_mobile[]">
+                                        <label for="">Tin liên quan</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_mobile[]">
+                                        <label for="">Tin stream</label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="position_mobile[]">
+                                        <label for="">Chân trang</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Background Color</label>
+                                    <div class="minicolors minicolors-theme-default minicolors-position-bottom minicolors-focus">
+                                        <input type="text" name="bg_color" id="nativeads_color" class="form-control minicolors-input" size="7">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Font Color</label>
+                                    <div class="minicolors minicolors-theme-default minicolors-position-bottom minicolors-focus">
+                                        <input type="text" name="font_color" id="nativeads_color" class="form-control minicolors-input" size="7">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="">Config</label>
+                                    <input type="text" class="form-control" name="config">
+                                    <small>10000 ký tự</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Script tracking</label>
+                                    <input type="text" class="form-control" name="script">
+                                    <small>10000 ký tự</small>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
                 <div class="nativead-btn-group">
