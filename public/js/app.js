@@ -10746,42 +10746,60 @@ window.$ = jquery__WEBPACK_IMPORTED_MODULE_0___default.a; //import 'jquery-modal
     }
   });
 
-  var generateNativeAds = function generateNativeAds() {
-    var format = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 46;
-    var obj = {
-      list_item: {
-        item_0: {
-          image_16_9: $('#nativead-frm input[name="image169"]').val() || '',
-          image_16_10: $('#nativead-frm input[name="image1610"]').val() || '',
-          image_15_7: $('#nativead-frm input[name="image157"]').val() || '',
-          title: $('#nativead-frm input[name="title"]').val() || '',
-          sapo: $('#nativead-frm input[name="sapo"]').val() || '',
-          reach: $('#nativead-frm input[name="reach"]').val() || ''
-        }
-      },
-      logo: $('#nativead-frm input[name="logo"]').val() || '',
-      logo_transparen: $('#nativead-frm input[name="logo_transparent"]').val() || '',
-      logo_mobile: $('#nativead-frm input[name="logo_mobile"]').val() || '',
-      avatar: $('#nativead-frm input[name="avatar"]').val() || '',
-      avatar_desc: $('#nativead-frm input[name="brand_name"]').val() || '',
-      platform: $('#nativead-frm input[name="platform"]:checked').map(function () {
-        return $(this).val();
-      }).get().join(',') || '',
-      color: $('#nativead-frm input[name="bg_color"]').val() || '',
-      font_color: $('#nativead-frm input[name="font_color"]').val() || '',
-      config: JSON.parse($('#nativead-frm input[name="config"]').val() || '{}'),
-      script: $('#nativead-frm input[name="script"]').val() || '',
-      amdlanding: "",
-      activate: ""
-    }; // Check format Native Video/Image
-
-    if (format === 47) {}
-
-    return JSON.stringify(obj);
+  var getTracking3rd = function getTracking3rd() {
+    return $('.nativeads_tracking_3rd_item').map(function () {
+      return {
+        key: $(this).attr('id'),
+        value: $(this).val()
+      };
+    }).get();
   };
 
-  $('.btn-generate').on('click', function () {
-    generateNativeAds();
+  var generateNativeAds = function generateNativeAds() {
+    var format = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 46;
+    $('.btn-generate').on('click', function () {
+      var date = new Date();
+      var activate = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+      var obj = {
+        list_item: {
+          item_0: {
+            image_16_9: $('#nativead-frm input[name="image169"]').val() || '',
+            image_16_10: $('#nativead-frm input[name="image1610"]').val() || '',
+            image_15_7: $('#nativead-frm input[name="image157"]').val() || '',
+            title: $('#nativead-frm textarea[name="title"]').val() || '',
+            sapo: $('#nativead-frm textarea[name="sapo"]').val() || '',
+            reach: $('#nativead-frm input[name="reach"]').val() || ''
+          }
+        },
+        logo: $('#nativead-frm input[name="logo"]').val() || '',
+        logo_transparen: $('#nativead-frm input[name="logo_transparent"]').val() || '',
+        logo_mobile: $('#nativead-frm input[name="logo_mobile"]').val() || '',
+        avatar: $('#nativead-frm input[name="avatar"]').val() || '',
+        avatar_desc: $('#nativead-frm input[name="brand_name"]').val() || '',
+        color: $('#nativead-frm input[name="bg_color"]').val() || '',
+        font_color: $('#nativead-frm input[name="font_color"]').val() || '',
+        config: Object.assign({}, JSON.parse($('#nativead-frm textarea[name="config"]').val() || '{}')),
+        script: $('#nativead-frm input[name="script"]').val() || '',
+        amdlanding: $('#nativead-frm input[name="amdlanding"]').val() || '',
+        activate: activate
+      }; // Check format Native Video/Image
+
+      if (format === 47) {
+        obj.video = $('#nativead-frm input[name="video"]').val() || '';
+        obj.vast = $('#nativead-frm input[name="vast_link"]').val() || '';
+        obj.duration = $('#nativead-frm input[name="duration"]').val() || '';
+        obj.true_view = $('#nativead-frm input[name="true_view"]').val() || '';
+        obj.tracking_3rd = getTracking3rd();
+      }
+
+      var result = JSON.stringify(obj);
+      console.log(result);
+      return result;
+    });
+  };
+
+  $('.show-frm-nativead').on('click', function () {
+    generateNativeAds(47);
   });
 })(jQuery);
 

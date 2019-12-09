@@ -12,7 +12,7 @@
 <body>
 
 <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<button type="button" class="btn btn-info btn-lg show-frm-nativead" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -30,9 +30,8 @@
                     <li class=""></li>
                     <li class=""></li>
                     <li class=""></li>
-                    <li class=""></li>
-                    <li class=""></li>
-                    <li class=""></li>
+                    <li class="video_format"></li>
+                    <li class="video_format"></li>
                     <li class=""></li>
                     <li class=""></li>
                 </ul>
@@ -61,7 +60,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Title</label>
-                                    <div class="dropdown select-color">
+                                    <div class="dropdown select-color hidden">
                                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Black
                                             <span class="caret"></span></button>
                                         <ul class="dropdown-menu">
@@ -145,9 +144,13 @@
                                     <input type="text" class="form-control" name="brand_name">
                                     <small>300 ký tự</small>
                                 </div>
+                                <div class="form-group">
+                                    <label for="">Landing</label>
+                                    <input type="text" class="form-control" name="amdlanding">
+                                </div>
                             </div>
                         </fieldset>
-                        <fieldset class="video">
+                        <fieldset class="video_format">
                             <div class="col-md-12">
                                 <label for="" class="field-title">Video & Vast</label>
                                 <div class="form-group">
@@ -162,7 +165,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset class="video">
+                        <fieldset class="video_format">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="">Duration</label>
@@ -174,85 +177,6 @@
                                 <div class="form-group">
                                     <label for="">True view</label>
                                     <input type="text" class="form-control" name="true_view">
-                                </div>
-                            </div>
-                        </fieldset>
-                        <fieldset class="flatform">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="">Platform</label>
-                                    <p>
-                                        <input type="checkbox" name="platform[]">
-                                        <label for="">PC</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="platform[]">
-                                        <label for="">Mobile</label>
-                                    </p>
-                                </div>
-                                <hr>
-                                <div class="form-group">
-                                    <label for="">Vị trí PC</label>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Giữa bài</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Chân bài</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Tin liên quan</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Tin stream</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Cột phải vị trí 1</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Cột phải vị trí 2</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Chân bài trái</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Chân bài phải</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_pc[]">
-                                        <label for="">Box300x600</label>
-                                    </p>
-                                </div>
-                                <hr>
-                                <div class="form-group">
-                                    <label for="">Vị trí Mobile</label>
-                                    <p>
-                                        <input type="checkbox" name="position_mobile[]">
-                                        <label for="">Giữa bài</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_mobile[]">
-                                        <label for="">Chân bài</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_mobile[]">
-                                        <label for="">Tin liên quan</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_mobile[]">
-                                        <label for="">Tin stream</label>
-                                    </p>
-                                    <p>
-                                        <input type="checkbox" name="position_mobile[]">
-                                        <label for="">Chân trang</label>
-                                    </p>
                                 </div>
                             </div>
                         </fieldset>
@@ -276,7 +200,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="">Config</label>
-                                    <input type="text" class="form-control" name="config">
+                                    <textarea name="config" id="" class="form-control" cols="30" rows="10" maxlength="300" style="width: 100%; height: 69px;"></textarea>
                                     <small>10000 ký tự</small>
                                 </div>
                                 <div class="form-group">
@@ -313,43 +237,43 @@
                 <div class="row tracking-3nd">
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">Impression</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="impression" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">creativeView</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="creative_view" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">start</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="start" class="form-control">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">midpoint</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="mid_point" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">firstQuartile</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="first_quartile" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">thirdQuartile</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="third_quartile" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">complete</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="complete" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">mute</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="mute" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">unmute</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="unmute" class="form-control nativeads_tracking_3rd_item">
                     </div>
                     <div class="col-md-12 form-group tracking-group">
                         <label for="">pause</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="pause" class="form-control nativeads_tracking_3rd_item">
                     </div>
                 </div>
             </div>
