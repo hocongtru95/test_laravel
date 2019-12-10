@@ -13,6 +13,33 @@ input, textarea {
     max-height: 400px;
     overflow-y: scroll;
 }
+
+.nav-nativead {
+    margin-bottom: 15px;
+}
+.gen-item {
+    width: 80px;
+    float: right;
+    height: auto;
+    text-align: right;
+}
+.gen-item .btn-gen {
+    width: 30px;
+    height: 30px;
+    background: #68b0ef;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 3px;
+}
+.gen-item .btn-gen:hover {
+    background: #4d90fe;
+}
+
 .nativead-wrap fieldset {
     display: none;
 }
